@@ -36,14 +36,32 @@
     
     <link rel="stylesheet" href="/css/custom.css">
     
-    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css">
+    
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
+
+<script>
+    (function (u, c) {
+        const d = document, t = 'script', o = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(e); }); }
+        s.parentNode.insertBefore(o, s);
+    })('//cdn.jsdelivr.net/npm/pangu@4.0.5/dist/browser/pangu.min.js', function () {
+        pangu.spacingPage();
+    });
+</script>
+
+
+
+
+
+
 
   </head>
 
   
   
   
-  <body class="single blog has-sidenotes">
+  <body class="single blog">
     <div class="crop-h"></div><div class="crop-v"></div><div class="crop-c"></div>
     <nav class="nav-top small">
     <div class="logo">
@@ -63,7 +81,6 @@
       
     </div>
     </nav>
-
 <div class="article-meta">
 <h1 class="title">A Plain Markdown Post</h1>
 <h2 class="subtitle">with a subtitle&hellip;</h2>
@@ -137,6 +154,18 @@ dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
 sunt in culpa qui officia deserunt mollit anim id est laborum.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>* * *</p>
 <p>A blockquote (a gray bar at the left and lightgray background):</p>
+<blockquote>
+<p>Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta
+imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id
+suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa
+ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta
+sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis
+porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis
+dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet
+tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed
+ante libero. Sed hendrerit arcu lacus.</p>
+<p>&mdash; by Someone</p>
+</blockquote>
 <p>A full-width piece of syntax-highlighted code with a drop-shadow effect:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#75715e">// right-align a quote footer if it starts with ---
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[...document.<span style="color:#a6e22e">getElementsByTagName</span>(<span style="color:#e6db74">&#39;blockquote&#39;</span>)].<span style="color:#a6e22e">forEach</span>(<span style="color:#a6e22e">quote</span> =&gt; {
@@ -218,9 +247,9 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.<sup id="fnref:1">
 
 
 
-<nav class="post-nav fullwidth">
-  <span></span>
-  <span><a href="/blog/2015-07-23-lorem-ipsum/">Lorem Ipsum</a> &rarr;</span>
+<nav class="post-nav fullwidth kai">
+  <span class="nav-prev">&larr; <a href="/blog/2015-07-23-lorem-ipsum/">Lorem Ipsum</a></span>
+  <span class="nav-next">&empty; &rarr;</span>
 </nav>
 
 
@@ -238,12 +267,20 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.<sup id="fnref:1">
 <script src="//cdn.jsdelivr.net/combine/npm/katex/dist/katex.min.js,npm/katex/dist/contrib/auto-render.min.js,npm/@xiee/utils/js/render-katex.js" defer></script>
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/copy-button.min.js" defer></script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@xiee/utils/css/copy-button.min.css">
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/right-quote.min.js" defer></script>
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/key-buttons.min.js" defer></script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@xiee/utils/css/key-buttons.min.css">
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/fix-footnote.min.js" defer></script>
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/heading-anchor.min.js" defer></script>
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/ol-id.min.js" defer></script>
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/fullwidth.min.js" defer></script>
+
+
+
+
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/sidenotes.min.js" defer></script>
+
 
   
   
@@ -252,11 +289,16 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.<sup id="fnref:1">
   <p class="nav-bottom">
     <span>© <a href="https://loganqiu.com">Chenke Qiu</a> 2024</span>
     <span class="menu-bottom">
-<a href="/categories/">Categories</a> <a href="/tags/">Tags</a>
+
+
+
+
 
 <a href="/blog/index.xml" type="application/rss+xml" title="RSS feed">Subscribe</a>
 
-<a href="#">Back to Top</a>
+<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="Attribution-NonCommercial-ShareAlike 4.0 International">License</a>
+<a href="/search/">Search</a>
+<a href="#">Back to top</a>
 
 </span>
   </p>
