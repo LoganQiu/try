@@ -1,0 +1,60 @@
+baseurl: "/"
+languageCode: "zh-CN"
+title: "A Hugo theme inspired by paged.js"
+theme: "hugo-paged"
+# ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+outputs:
+  home: [html, rss, json]
+
+menu:
+  main:
+    - name: Github
+      url: "https://github.com/loganqiu"
+      weight: 10
+      params:
+        class: [optional]
+
+params:
+  description: "A website built through Hugo with the hugo-paged theme."
+  logo:
+    en:
+      alt: LOGO TEXT
+      img: # a path to the logo
+  footer: "&copy; [Chenke Qiu](https://loganqiu.com) 2024"
+  math: true
+
+markup:
+  highlight:
+    codeFences: true
+  goldmark:
+    extensions:
+      # md 基础扩展
+      extras:
+        delete:
+          enable: true
+        insert:
+          enable: true
+        mark:
+          enable: true
+        subscript:
+          enable: true
+        superscript:
+          enable: true
+      # 数学公式
+      passthrough: 
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
+      # 防止与 Extras subscript extension 冲突
+      strikethrough: false
+    renderer:
+      unsafe: true
