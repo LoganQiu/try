@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Documentation on A Hugo theme inspired by paged.js</title>
+    <title>Docs on A Hugo theme inspired by paged.js</title>
     <link>//localhost:1313/docs/</link>
-    <description>Recent content in Documentation on A Hugo theme inspired by paged.js</description>
+    <description>Recent content in Docs on A Hugo theme inspired by paged.js</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <atom:link href="//localhost:1313/docs/" rel="self" type="application/rss+xml" />
