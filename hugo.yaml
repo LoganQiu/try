@@ -1,8 +1,7 @@
 baseurl: "/"
 languageCode: "zh-CN"
-title: "A Hugo theme inspired by paged.js"
+title: "韬钤深处"
 theme: "hugo-paged"
-# ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
 hasCJKLanguage: true
 enableEmoji: true
@@ -12,20 +11,20 @@ outputs:
 
 menu:
   main:
-    - name: 首页
+    - name: 主页
       url: "/"
       weight: 1
     - name: 关于
       url: "/about/"
       weight: 2
-    - name: Blog
+    - name: 博客
       url: "/blog/"
       weight: 3
     - name: 搜索
       url: "/search/"
       weight: 4
-    - name: Docs
-      url: "/docs/"
+    - name: 日志
+      url: "/posts/"
       weight: 5
     - name: 订阅
       url: "/index.xml"
@@ -35,7 +34,7 @@ params:
   description: "A website built through Hugo with the hugo-paged theme."
   logo:
     en:
-      alt: LOGO TEXT
+      alt: "0x7C00"
       img: # a path to the logo
   footer: "&copy; [Chenke Qiu](https://loganqiu.com) 2024"
   math: true

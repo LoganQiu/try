@@ -21,9 +21,7 @@ title: Home
 }
 </style>
 
-<h1 class="title">Hugo Paged</h1>
-
-## _by_ Yihui Xie
+<h1 class="title">qck</h1>
 
 - CLEAN-CUT
 - PRINT FEEL

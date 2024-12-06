@@ -12,6 +12,7 @@ tags:
   - KaTeX
   - Pandoc
   - RStudio
+math: disable
 ---
 
 ## Sample Text
