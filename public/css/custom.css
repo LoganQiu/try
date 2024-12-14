@@ -11,7 +11,7 @@ h1.title::before {
   width: initial;
 }
 
-.archive > ul > li {
+.archive>ul>li {
   display: inline-block;
   margin-right: 1em;
 }
@@ -26,20 +26,20 @@ h1.title::before {
   margin: 2em 0 1em;
 }
 
-.main > blockquote:first-child,
-#TableOfContents + blockquote {
+.main>blockquote:first-child,
+#TableOfContents+blockquote {
   border-left-color: #12372a;
   background-color: #fbf9f1;
   font-size: 0.9em;
 }
 
-.archive > h2 {
+.archive>h2 {
   text-align: initial;
 }
 
-.main > ul > li > span:first-child,
-.main > p > span:first-child,
-.main > p .subtitle,
+.main>ul>li>span:first-child,
+.main>p>span:first-child,
+.main>p .subtitle,
 .hash-note,
 .post-nav,
 .stats {
@@ -47,7 +47,10 @@ h1.title::before {
   font-size: 0.9em;
 }
 
+/* 统计信息对齐 */
 .stats {
+  margin: 2em auto 0;
+  padding-top: 1em;
   text-align: right;
 }
 
@@ -55,13 +58,13 @@ h1.title::before {
   font-size: initial;
 }
 
-.en .main > p:first-of-type::first-line {
+.en .main>p:first-of-type::first-line {
   font-variant: small-caps;
   letter-spacing: 0.05em;
   font-size: 1.1em;
 }
 
-.en .main > p:first-of-type::first-letter {
+.en .main>p:first-of-type::first-letter {
   font-size: 3em;
   padding: 0.1em 0.1em 0 0;
   float: left;
@@ -116,7 +119,7 @@ del:hover {
 }
 
 span.hash-note::before {
-  content: "　# ";
+  content: " # ";
 }
 
 .hide-notes .hash-note,
@@ -124,7 +127,47 @@ span.hash-note::before {
   display: none !important;
 }
 
+
+/* 添加 blog 样式起始 */
+/* .blog-list {
+  max-width: none;
+  margin: 0 auto;
+}
+
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: baseline;
+  flex: 1;
+}
+
+.title-wrapper a {
+  white-space: nowrap;
+}
+
+.dots {
+  flex: 1;
+  margin: 0 0.5em;
+  border-bottom: 1px dotted #999;
+  height: 1em;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.9em;
+  white-space: nowrap;
+} */
+/* 添加 blog 样式结束 */
+
 @media only screen and (min-width: 768px) {
+
   pre,
   table {
     width: auto;
@@ -148,6 +191,7 @@ span.hash-note::before {
 }
 
 @media print {
+
   del,
   footer,
   .nav-top,
