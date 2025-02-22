@@ -33,9 +33,8 @@ menu:
 params:
   description: "A website built through Hugo with the hugo-paged theme."
   logo:
-    en:
-      alt: "0x7C00"
-      img: # a path to the logo
+    alt: "0x7C00"
+    img: # a path to the logo
   footer: "&copy; [Chenke Qiu](https://zeratulqiu.me) 2024-2025"
   math: true
 

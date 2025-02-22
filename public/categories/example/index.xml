@@ -1,27 +1,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Example on 韬钤深处</title>
-    <link>//localhost:4321/categories/example/</link>
+    <link>//localhost:1313/categories/example/</link>
     <description>Recent content in Example on 韬钤深处</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 14 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:4321/categories/example/" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/example/" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Plain Markdown Post</title>
-      <link>//localhost:4321/blog/2016-02-14-hello-markdown/</link>
+      <link>//localhost:1313/blog/2016-02-14-hello-markdown/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
       <author>Yihui Xie</author>
-      <guid>//localhost:4321/blog/2016-02-14-hello-markdown/</guid>
+      <guid>//localhost:1313/blog/2016-02-14-hello-markdown/</guid>
       <description>
         <![CDATA[
         <h2 id="sample-text">Sample Text</h2>
 <h3 id="third-level-header">Third-level header</h3>
 <h4 id="fourth-level-header">Fourth-level header</h4>
 <p>A paragraph (with a footnote):</p>
-<p><strong>Lorem ipsum</strong> dolor[&hellip;] &lt;//localhost:4321/blog/2016-02-14-hello-markdown/&gt;</p>
+<p><strong>Lorem ipsum</strong> dolor[&hellip;] &lt;//localhost:1313/blog/2016-02-14-hello-markdown/&gt;</p>
         
         ]]>
       </description>
@@ -31,13 +31,13 @@
     
     <item>
       <title>Lorem Ipsum</title>
-      <link>//localhost:4321/blog/2015-07-23-lorem-ipsum/</link>
+      <link>//localhost:1313/blog/2015-07-23-lorem-ipsum/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:4321/blog/2015-07-23-lorem-ipsum/</guid>
+      <guid>//localhost:1313/blog/2015-07-23-lorem-ipsum/</guid>
       <description>
         <![CDATA[
-        <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore[&hellip;] &lt;//localhost:4321/blog/2015-07-23-lorem-ipsum/&gt;</p>
+        <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore[&hellip;] &lt;//localhost:1313/blog/2015-07-23-lorem-ipsum/&gt;</p>
         
         ]]>
       </description>
