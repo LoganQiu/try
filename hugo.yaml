@@ -36,7 +36,7 @@ params:
     en:
       alt: "0x7C00"
       img: # a path to the logo
-  footer: "&copy; [Chenke Qiu](https://loganqiu.com) 2024"
+  footer: "&copy; [Chenke Qiu](https://zeratulqiu.me) 2024-2025"
   math: true
 
 markup:

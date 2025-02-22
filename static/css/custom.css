@@ -6,23 +6,13 @@ h1.title::before {
   line-height: 1.75;
 }
 
-.archive {
-  max-width: none;
-  width: initial;
-}
-
-.archive>ul>li {
-  display: inline-block;
-  margin-right: 1em;
-}
-
-.main h2 {
+/* .main h2 {
   line-height: 1.25;
-}
+} */
 
-.main h1,
-.main h2 {
-  text-align: center;
+.main h2,
+.main h3 {
+  text-align: left;
   margin: 2em 0 1em;
 }
 
@@ -31,6 +21,16 @@ h1.title::before {
   border-left-color: #12372a;
   background-color: #fbf9f1;
   font-size: 0.9em;
+}
+
+.archive {
+  max-width: none;
+  width: initial;
+}
+
+.archive>ul>li {
+  display: inline-block;
+  margin-right: 1em;
 }
 
 .archive>h2 {
@@ -127,44 +127,6 @@ span.hash-note::before {
   display: none !important;
 }
 
-
-/* 添加 blog 样式起始 */
-/* .blog-list {
-  max-width: none;
-  margin: 0 auto;
-}
-
-.blog-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin: 0.5em 0;
-  width: 100%;
-}
-
-.title-wrapper {
-  display: flex;
-  align-items: baseline;
-  flex: 1;
-}
-
-.title-wrapper a {
-  white-space: nowrap;
-}
-
-.dots {
-  flex: 1;
-  margin: 0 0.5em;
-  border-bottom: 1px dotted #999;
-  height: 1em;
-}
-
-.post-date {
-  color: #666;
-  font-size: 0.9em;
-  white-space: nowrap;
-} */
-/* 添加 blog 样式结束 */
 
 @media only screen and (min-width: 768px) {
 

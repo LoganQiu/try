@@ -2,7 +2,8 @@
 title: A Plain Markdown Post
 subtitle: with a subtitle...
 author: Yihui Xie
-date: '2016-02-14'
+date: "2016-02-14"
+description: hahahaha
 categories:
   - Example
   - Hugo
@@ -24,7 +25,7 @@ math: disable
 A paragraph (with a footnote):
 
 **Lorem ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore *magna aliqua*. Ut enim ad minim veniam,
+tempor incididunt ut labore et dolore _magna aliqua_. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -50,18 +51,18 @@ A blockquote (a gray bar at the left and lightgray background):
 
 A full-width piece of syntax-highlighted code with a drop-shadow effect:
 
-``` js
+```js
 // right-align a quote footer if it starts with ---
-[...document.getElementsByTagName('blockquote')].forEach(quote => {
-  const el = quote.lastElementChild;
-  if (el?.tagName === 'P' && /^(—|---)/.test(el.textContent)) el.style.textAlign = 'right';
+[...document.getElementsByTagName("blockquote")].forEach((quote) => {
+	const el = quote.lastElementChild;
+	if (el?.tagName === "P" && /^(—|---)/.test(el.textContent)) el.style.textAlign = "right";
 });
 ```
 
 A full-width table:
 
 | Sepal.Length | Sepal.Width | Petal.Length | Petal.Width | Species |
-|-------------:|------------:|-------------:|------------:|:--------|
+| -----------: | ----------: | -----------: | ----------: | :------ |
 |          5.1 |         3.5 |          1.4 |         0.2 | setosa  |
 |          4.9 |         3.0 |          1.4 |         0.2 | setosa  |
 |          4.7 |         3.2 |          1.3 |         0.2 | setosa  |
