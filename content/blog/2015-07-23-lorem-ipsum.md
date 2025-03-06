@@ -39,8 +39,6 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 ## Lorem ipsum F 
 
-## Lorem ipsum G 
-
 ## Lorem ipsum H 
 
 ## Lorem ipsum I 
